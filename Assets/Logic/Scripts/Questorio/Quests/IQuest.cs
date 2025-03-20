@@ -4,6 +4,9 @@ namespace Logic.Scripts.Questorio.Quests
 {
     public interface IQuest
     {
+        string Id { get; }
+        string Header { get; }
+        string Description { get; }
         int CurrentProgress { get; }
         int MaxProgress { get; }
         bool IsCompleted { get; }

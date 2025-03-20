@@ -5,12 +5,18 @@ namespace Logic.Scripts.Questorio.Quests
 {
     public class QuestBase : IQuest
     {
-        public QuestBase(int currentProgress, int maxProgress)
+        public QuestBase(int currentProgress, IQuestDescription description)
         {
             CurrentProgress = currentProgress;
-            MaxProgress = maxProgress;
+            Id = description.Id;
+            Header = description.Header;
+            Description = description.Description;
+            MaxProgress = description.MaxProgress;
         }
 
+        public string Id { get; }
+        public string Header { get; }
+        public string Description { get; }
         public int CurrentProgress { get; private set; }
         public int MaxProgress { get; }
         public bool IsCompleted { get; private set; }
