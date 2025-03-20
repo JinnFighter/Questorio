@@ -11,12 +11,14 @@ namespace Logic.Scripts.Questorio.Quests
             Id = description.Id;
             Header = description.Header;
             Description = description.Description;
+            ProgressText = description.ProgressText;
             MaxProgress = description.MaxProgress;
         }
 
         public string Id { get; }
         public string Header { get; }
         public string Description { get; }
+        public string ProgressText { get; }
         public int CurrentProgress { get; private set; }
         public int MaxProgress { get; }
         public bool IsCompleted { get; private set; }

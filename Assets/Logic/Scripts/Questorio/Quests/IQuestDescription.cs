@@ -5,6 +5,7 @@ namespace Logic.Scripts.Questorio.Quests
         string Id { get; }
         string Header { get; }
         string Description { get; }
+        string ProgressText { get; }
         int MaxProgress { get; }
     }
 }
