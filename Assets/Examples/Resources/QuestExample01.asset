@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762e2a4c4465db949ad2c5d9a3f65625, type: 3}
+  m_Name: QuestExample01
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: Example01
+  <Header>k__BackingField: Simple click Quest
+  <Description>k__BackingField: Click button!
+  <ProgressText>k__BackingField: Click the button {0}/{1} times
+  <MaxProgress>k__BackingField: 5
